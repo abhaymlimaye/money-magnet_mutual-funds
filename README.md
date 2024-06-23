@@ -19,6 +19,18 @@ All the Buy and Sell type of Order will show up here. User will be redirected to
   - List of Mutual Funds: Third party API twelvedata.com
   - Holdings: Firebase Realtime Database
   - Orders: Firebase Realtime Database
+ 
+# 2.	APIs used
+* List of Mutual Funds – Third party API twelvedata.com
+The free version of this API provides limited credits to get some basic Mutual Fund data for the provided country like Name of the Fund, Name of the Fund House, Fund Symbol, Performance Rating, Risk Rating.
+* Firebase - Realtime Database
+Will be used to store and manipulated the data for Holdings and Orders.
+
+# 3.	Risks: -
+* Data about the Mutual Funds is very valuable and hence it is not easily available. Especially the free version provided by third party venders are extremely limited in terms of amount of useful data provided and number of free API calls.
+* Ensuring data integrity in case of any kind of failure while making a Buy or Sell Order is crucial. This requires us to limit some of the offline functionality such as seeing the offline Order reflected in user’s Portfolio. We have used Transaction Feature of Firebase Realtime DB to ensure the ACID properties of our most important data which is Holdings.
+
+
 
 
 
