@@ -1,3 +1,6 @@
+# App Demo and Code Walkthrough
+# https://share.vidyard.com/watch/raq8n3xrq1LBxkowvyqN5T?
+
 # Prototype
 ﻿<img width="176" alt="Discover Screen" src="https://github.com/abhaymlimaye/money-magnet_mutual-funds/assets/32418776/fe2efaf8-5684-41c7-a0b0-0ef8d84fd39f">
 <img width="176" alt="Holdings Screen" src="https://github.com/abhaymlimaye/money-magnet_mutual-funds/assets/32418776/6a72fde1-5db5-403d-af2b-f35bf7ea04c0">
